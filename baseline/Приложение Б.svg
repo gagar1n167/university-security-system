@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="982pt" height="476pt" viewBox="0.00 0.00 982.00 476.00">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 472.4)">
+<title>G</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-472.4 977.6,-472.4 977.6,4 -4,4"/>
+<!-- A -->
+<g id="node1" class="node">
+<title>A</title>
+<polygon fill="#e6f3ff" stroke="black" points="551.63,-414.4 419.97,-414.4 419.97,-349.6 551.63,-349.6 551.63,-414.4"/>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-395.5" font-family="Arial" font-size="9.00">Центральный сервер VMS</text>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-384.7" font-family="Arial" font-size="9.00">Milestone XProtect v2024.1</text>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-373.9" font-family="Arial" font-size="9.00">S/N: SVR-UNI-001</text>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-363.1" font-family="Arial" font-size="9.00">IP: 192.168.100.10</text>
+</g>
+<!-- B -->
+<g id="node2" class="node">
+<title>B</title>
+<polygon fill="#ffcce6" stroke="black" points="340.6,-218 211,-218 211,-153.2 340.6,-153.2 340.6,-218"/>
+<text xml:space="preserve" text-anchor="middle" x="275.8" y="-199.1" font-family="Arial" font-size="9.00">Контроллер СКУД</text>
+<text xml:space="preserve" text-anchor="middle" x="275.8" y="-188.3" font-family="Arial" font-size="9.00">HID VertX EVO v3.2</text>
+<text xml:space="preserve" text-anchor="middle" x="275.8" y="-177.5" font-family="Arial" font-size="9.00">S/N: HID-CNT-001</text>
+<text xml:space="preserve" text-anchor="middle" x="275.8" y="-166.7" font-family="Arial" font-size="9.00">IP: 192.168.100.11</text>
+</g>
+<!-- A&#45;&gt;B -->
+<g id="edge1" class="edge">
+<title>A-&gt;B</title>
+<path fill="none" stroke="red" d="M469.97,-349.12C453.16,-317.94 424.04,-270.78 387.8,-240 376.81,-230.67 363.91,-222.56 350.85,-215.68"/>
+<polygon fill="red" stroke="red" points="352.72,-212.7 342.21,-211.34 349.58,-218.96 352.72,-212.7"/>
+<text xml:space="preserve" text-anchor="middle" x="447.83" y="-252.6" font-family="Times,serif" font-size="14.00">HTTP API</text>
+</g>
+<!-- C -->
+<g id="node3" class="node">
+<title>C</title>
+<polygon fill="#e6ffe6" stroke="black" points="129.6,-64.8 0,-64.8 0,-10.8 129.6,-10.8 129.6,-64.8"/>
+<text xml:space="preserve" text-anchor="middle" x="64.8" y="-45.9" font-family="Arial" font-size="9.00">RAID 5 Хранилище</text>
+<text xml:space="preserve" text-anchor="middle" x="64.8" y="-35.1" font-family="Arial" font-size="9.00">24 ТБ, WD Purple</text>
+<text xml:space="preserve" text-anchor="middle" x="64.8" y="-24.3" font-family="Arial" font-size="9.00">S/N: RAID-001</text>
+</g>
+<!-- A&#45;&gt;C -->
+<g id="edge2" class="edge">
+<title>A-&gt;C</title>
+<path fill="none" stroke="black" d="M419.53,-368.09C338.82,-349 203.53,-305.62 124.45,-218 88.54,-178.21 74.17,-116.16 68.47,-76.51"/>
+<polygon fill="black" stroke="black" points="71.96,-76.18 67.19,-66.72 65.02,-77.09 71.96,-76.18"/>
+<text xml:space="preserve" text-anchor="middle" x="164.12" y="-181.4" font-family="Times,serif" font-size="14.00">iSCSI / Архив</text>
+</g>
+<!-- D -->
+<g id="node4" class="node">
+<title>D</title>
+<polygon fill="#ffffe6" stroke="black" points="560.36,-218 411.24,-218 411.24,-153.2 560.36,-153.2 560.36,-218"/>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-199.1" font-family="Arial" font-size="9.00">PoE-коммутатор Лаборатория</text>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-188.3" font-family="Arial" font-size="9.00">Netgear GS110TP</text>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-177.5" font-family="Arial" font-size="9.00">S/N: SW-LAB-01</text>
+<text xml:space="preserve" text-anchor="middle" x="485.8" y="-166.7" font-family="Arial" font-size="9.00">IP: 192.168.101.1</text>
+</g>
+<!-- A&#45;&gt;D -->
+<g id="edge3" class="edge">
+<title>A-&gt;D</title>
+<path fill="none" stroke="blue" d="M485.8,-349.33C485.8,-316.71 485.8,-265.66 485.8,-229.45"/>
+<polygon fill="blue" stroke="blue" points="489.3,-229.77 485.8,-219.77 482.3,-229.77 489.3,-229.77"/>
+<text xml:space="preserve" text-anchor="middle" x="506.42" y="-252.6" font-family="Times,serif" font-size="14.00">RTSPS</text>
+</g>
+<!-- G -->
+<g id="node7" class="node">
+<title>G</title>
+<polygon fill="#ffffe6" stroke="black" points="715.61,-218 573.99,-218 573.99,-153.2 715.61,-153.2 715.61,-218"/>
+<text xml:space="preserve" text-anchor="middle" x="644.8" y="-199.1" font-family="Arial" font-size="9.00">PoE-коммутатор Общие зоны</text>
+<text xml:space="preserve" text-anchor="middle" x="644.8" y="-188.3" font-family="Arial" font-size="9.00">Netgear GS110TP</text>
+<text xml:space="preserve" text-anchor="middle" x="644.8" y="-177.5" font-family="Arial" font-size="9.00">S/N: SW-PUB-01</text>
+<text xml:space="preserve" text-anchor="middle" x="644.8" y="-166.7" font-family="Arial" font-size="9.00">IP: 192.168.102.1</text>
+</g>
+<!-- A&#45;&gt;G -->
+<g id="edge4" class="edge">
+<title>A-&gt;G</title>
+<path fill="none" stroke="blue" d="M511.7,-349.33C538.96,-316.01 581.95,-263.44 611.66,-227.12"/>
+<polygon fill="blue" stroke="blue" points="614.33,-229.38 617.95,-219.42 608.91,-224.95 614.33,-229.38"/>
+<text xml:space="preserve" text-anchor="middle" x="618.44" y="-252.6" font-family="Times,serif" font-size="14.00">RTSPS</text>
+</g>
+<!-- I -->
+<g id="node9" class="node">
+<title>I</title>
+<polygon fill="#ffffe6" stroke="black" points="973.6,-218 844,-218 844,-153.2 973.6,-153.2 973.6,-218"/>
+<text xml:space="preserve" text-anchor="middle" x="908.8" y="-199.1" font-family="Arial" font-size="9.00">PoE-коммутатор Охрана</text>
+<text xml:space="preserve" text-anchor="middle" x="908.8" y="-188.3" font-family="Arial" font-size="9.00">Netgear GS110TP</text>
+<text xml:space="preserve" text-anchor="middle" x="908.8" y="-177.5" font-family="Arial" font-size="9.00">S/N: SW-SEC-01</text>
+<text xml:space="preserve" text-anchor="middle" x="908.8" y="-166.7" font-family="Arial" font-size="9.00">IP: 192.168.104.1</text>
+</g>
+<!-- A&#45;&gt;I -->
+<g id="edge5" class="edge">
+<title>A-&gt;I</title>
+<path fill="none" stroke="gray" d="M504.29,-349.22C517.07,-330.33 535.88,-307.75 558.8,-295.6 636.24,-254.53 671.4,-300.59 754.8,-273.6 789.97,-262.22 826.12,-242.3 854.55,-224.39"/>
+<polygon fill="gray" stroke="gray" points="856.08,-227.57 862.61,-219.23 852.3,-221.68 856.08,-227.57"/>
+<text xml:space="preserve" text-anchor="middle" x="846.61" y="-252.6" font-family="Times,serif" font-size="14.00">HTTPS</text>
+</g>
+<!-- J -->
+<g id="node10" class="node">
+<title>J</title>
+<polygon fill="#d9ead3" stroke="black" points="945.6,-70.2 816,-70.2 816,-5.4 945.6,-5.4 945.6,-70.2"/>
+<text xml:space="preserve" text-anchor="middle" x="880.8" y="-51.3" font-family="Arial" font-size="9.00">Рабочая станция охраны</text>
+<text xml:space="preserve" text-anchor="middle" x="880.8" y="-40.5" font-family="Arial" font-size="9.00">2 монитора, клиент VMS</text>
+<text xml:space="preserve" text-anchor="middle" x="880.8" y="-29.7" font-family="Arial" font-size="9.00">S/N: WS-SEC-001</text>
+<text xml:space="preserve" text-anchor="middle" x="880.8" y="-18.9" font-family="Arial" font-size="9.00">IP: 192.168.104.10</text>
+</g>
+<!-- A&#45;&gt;J -->
+<g id="edge6" class="edge">
+<title>A-&gt;J</title>
+<path fill="none" stroke="gray" d="M505.84,-349.11C518.84,-330.91 537.33,-309.1 558.8,-295.6 591.11,-275.29 607.12,-289.52 641.8,-273.6 681.48,-255.38 695.12,-251.77 722.8,-218 742.65,-193.78 732.11,-178.56 750.48,-153.2 771.34,-124.41 800.68,-97.85 826.24,-77.57"/>
+<polygon fill="gray" stroke="gray" points="828.17,-80.51 833.91,-71.6 823.87,-74.98 828.17,-80.51"/>
+<text xml:space="preserve" text-anchor="middle" x="793.64" y="-181.4" font-family="Times,serif" font-size="14.00">Live-просмотр</text>
+</g>
+<!-- B&#45;&gt;A -->
+<g id="edge14" class="edge">
+<title>B-&gt;A</title>
+<path fill="none" stroke="purple" stroke-dasharray="5,2" d="M267.23,-218.16C264.31,-235.71 263.93,-257.25 273.98,-273.6 303.2,-321.19 360.8,-348.49 408.57,-363.64"/>
+<polygon fill="purple" stroke="purple" points="407.5,-366.97 418.08,-366.53 409.53,-360.28 407.5,-366.97"/>
+<text xml:space="preserve" text-anchor="middle" x="329.39" y="-261" font-family="Times,serif" font-size="14.00">HTTP API</text>
+<text xml:space="preserve" text-anchor="middle" x="329.39" y="-244.2" font-family="Times,serif" font-size="14.00">(событие → видео)</text>
+</g>
+<!-- B&#45;&gt;C -->
+<g id="edge8" class="edge">
+<title>B-&gt;C</title>
+<path fill="none" stroke="gray" d="M210.77,-164.1C189.48,-155.73 166.4,-144.78 147.3,-131.2 125.31,-115.57 105.05,-93.06 90.12,-74.18"/>
+<polygon fill="gray" stroke="gray" points="93.03,-72.22 84.15,-66.44 87.49,-76.5 93.03,-72.22"/>
+<text xml:space="preserve" text-anchor="middle" x="201.55" y="-110.2" font-family="Times,serif" font-size="14.00">Синхронизация БД</text>
+</g>
+<!-- F -->
+<g id="node6" class="node">
+<title>F</title>
+<polygon fill="#ffcce6" stroke="black" points="513.36,-75.6 364.24,-75.6 364.24,0 513.36,0 513.36,-75.6"/>
+<text xml:space="preserve" text-anchor="middle" x="438.8" y="-56.7" font-family="Arial" font-size="9.00">Биометрический считыватель</text>
+<text xml:space="preserve" text-anchor="middle" x="438.8" y="-45.9" font-family="Arial" font-size="9.00">HID BioEntry P2</text>
+<text xml:space="preserve" text-anchor="middle" x="438.8" y="-35.1" font-family="Arial" font-size="9.00">OSDP Secure</text>
+<text xml:space="preserve" text-anchor="middle" x="438.8" y="-24.3" font-family="Arial" font-size="9.00">S/N: BIO-LAB-01</text>
+<text xml:space="preserve" text-anchor="middle" x="438.8" y="-13.5" font-family="Arial" font-size="9.00">IP: 192.168.101.20</text>
+</g>
+<!-- B&#45;&gt;F -->
+<g id="edge7" class="edge">
+<title>B-&gt;F</title>
+<path fill="none" stroke="red" d="M318.89,-152.76C327.65,-145.87 336.67,-138.47 344.8,-131.2 360.32,-117.33 362.65,-112.27 377.42,-97.6 381.98,-93.07 386.76,-88.38 391.57,-83.71"/>
+<polygon fill="red" stroke="red" points="393.78,-86.44 398.54,-76.97 388.92,-81.4 393.78,-86.44"/>
+<text xml:space="preserve" text-anchor="middle" x="416.11" y="-110.2" font-family="Times,serif" font-size="14.00">OSDP Secure</text>
+</g>
+<!-- K -->
+<g id="node11" class="node">
+<title>K</title>
+<ellipse fill="#f4cccc" stroke="black" cx="246.8" cy="-37.8" rx="102.96" ry="30.55"/>
+<text xml:space="preserve" text-anchor="middle" x="246.8" y="-40.5" font-family="Arial" font-size="9.00">Пожарная сигнализация</text>
+<text xml:space="preserve" text-anchor="middle" x="246.8" y="-29.7" font-family="Arial" font-size="9.00">(интеграция через ИТ-центр)</text>
+</g>
+<!-- B&#45;&gt;K -->
+<g id="edge13" class="edge">
+<title>B-&gt;K</title>
+<path fill="none" stroke="orange" stroke-dasharray="5,2" d="M269.51,-152.96C265.23,-131.47 259.54,-102.84 254.92,-79.63"/>
+<polygon fill="orange" stroke="orange" points="258.36,-79 252.98,-69.87 251.5,-80.36 258.36,-79"/>
+<text xml:space="preserve" text-anchor="middle" x="304.41" y="-118.6" font-family="Times,serif" font-size="14.00">REST API</text>
+<text xml:space="preserve" text-anchor="middle" x="304.41" y="-101.8" font-family="Times,serif" font-size="14.00">(оповещение)</text>
+</g>
+<!-- E -->
+<g id="node5" class="node">
+<title>E</title>
+<polygon fill="#e6f3ff" stroke="black" points="656.6,-64.8 527,-64.8 527,-10.8 656.6,-10.8 656.6,-64.8"/>
+<text xml:space="preserve" text-anchor="middle" x="591.8" y="-45.9" font-family="Arial" font-size="9.00">IP-камеры (4 шт.)</text>
+<text xml:space="preserve" text-anchor="middle" x="591.8" y="-35.1" font-family="Arial" font-size="9.00">2–4 Мп, H.265</text>
+<text xml:space="preserve" text-anchor="middle" x="591.8" y="-24.3" font-family="Arial" font-size="9.00">S/N: CAM-BIO-01...04</text>
+</g>
+<!-- D&#45;&gt;E -->
+<g id="edge9" class="edge">
+<title>D-&gt;E</title>
+<path fill="none" stroke="green" d="M508.8,-152.96C525.68,-129.75 548.61,-98.21 566.09,-74.16"/>
+<polygon fill="green" stroke="green" points="568.8,-76.39 571.85,-66.24 563.14,-72.27 568.8,-76.39"/>
+<text xml:space="preserve" text-anchor="middle" x="559.96" y="-110.2" font-family="Times,serif" font-size="14.00">PoE</text>
+</g>
+<!-- D&#45;&gt;F -->
+<g id="edge10" class="edge">
+<title>D-&gt;F</title>
+<path fill="none" stroke="green" d="M475.6,-152.96C469.37,-133.62 461.27,-108.49 454.25,-86.74"/>
+<polygon fill="green" stroke="green" points="457.67,-85.93 451.27,-77.49 451.01,-88.08 457.67,-85.93"/>
+<text xml:space="preserve" text-anchor="middle" x="479.56" y="-110.2" font-family="Times,serif" font-size="14.00">PoE</text>
+</g>
+<!-- H -->
+<g id="node8" class="node">
+<title>H</title>
+<polygon fill="#e6f3ff" stroke="black" points="800.6,-64.8 671,-64.8 671,-10.8 800.6,-10.8 800.6,-64.8"/>
+<text xml:space="preserve" text-anchor="middle" x="735.8" y="-45.9" font-family="Arial" font-size="9.00">IP-камеры (6 шт.)</text>
+<text xml:space="preserve" text-anchor="middle" x="735.8" y="-35.1" font-family="Arial" font-size="9.00">2–4 Мп, H.265</text>
+<text xml:space="preserve" text-anchor="middle" x="735.8" y="-24.3" font-family="Arial" font-size="9.00">S/N: CAM-PUB-01...06</text>
+</g>
+<!-- G&#45;&gt;H -->
+<g id="edge11" class="edge">
+<title>G-&gt;H</title>
+<path fill="none" stroke="green" d="M664.55,-152.96C678.97,-129.85 698.55,-98.48 713.53,-74.48"/>
+<polygon fill="green" stroke="green" points="716.31,-76.64 718.64,-66.3 710.37,-72.93 716.31,-76.64"/>
+<text xml:space="preserve" text-anchor="middle" x="710.12" y="-110.2" font-family="Times,serif" font-size="14.00">PoE</text>
+</g>
+<!-- I&#45;&gt;J -->
+<g id="edge12" class="edge">
+<title>I-&gt;J</title>
+<path fill="none" stroke="green" d="M902.72,-152.96C898.72,-132.11 893.43,-104.55 889.04,-81.73"/>
+<polygon fill="green" stroke="green" points="892.52,-81.27 887.2,-72.11 885.65,-82.59 892.52,-81.27"/>
+<text xml:space="preserve" text-anchor="middle" x="909.8" y="-110.2" font-family="Times,serif" font-size="14.00">PoE</text>
+</g>
+<!-- Legend -->
+<g id="node12" class="node">
+<title>Legend</title>
+<polygon fill="lightgrey" stroke="none" points="792.06,-468.4 565.54,-468.4 565.54,-295.6 792.06,-295.6 792.06,-468.4"/>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-432.4" font-family="Arial" font-size="8.00">Легенда:</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-422.8" font-family="Arial" font-size="8.00">■ СВН (синий)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-413.2" font-family="Arial" font-size="8.00">■ СКУД (розовый)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-403.6" font-family="Arial" font-size="8.00">■ Хранение (светло-зелёный)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-394" font-family="Arial" font-size="8.00">■ Сеть / PoE (жёлто-зелёный)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-384.4" font-family="Arial" font-size="8.00">■ Охрана (салатовый)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-374.8" font-family="Arial" font-size="8.00">■ Внешняя система (персиковый)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-365.2" font-family="Arial" font-size="8.00">— RTSPS (синий)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-355.6" font-family="Arial" font-size="8.00">— HTTP API / REST API (красный/оранжевый)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-346" font-family="Arial" font-size="8.00">— OSDP Secure (красный)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-336.4" font-family="Arial" font-size="8.00">— PoE (зелёный)</text>
+<text xml:space="preserve" text-anchor="middle" x="678.8" y="-326.8" font-family="Arial" font-size="8.00">— Интеграция (фиолетовый, пунктир)</text>
+</g>
+</g>
+</svg>
